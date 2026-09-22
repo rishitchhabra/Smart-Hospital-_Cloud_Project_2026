@@ -1,0 +1,7 @@
+{
+  "name": "medagentx-lambda",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "AWS Lambda entrypoints for the MedAgentX multi-agent workflow"
+}

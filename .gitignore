@@ -1,0 +1,15 @@
+node_modules/
+dist/
+build/
+.env
+.env.*
+!.env.example
+*.log
+npm-debug.log*
+.DS_Store
+src/backend/data/*.db
+src/backend/data/*.db-*
+coverage/
+.vite/
+src/ml_model/*.joblib
+src/ml_model/__pycache__/

@@ -1,0 +1,23 @@
+{
+  "name": "medagentx",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Intelligent Serverless Workflow Optimization Framework for Smart Hospital Services using Multi-Agent AI",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "install:all": "npm --prefix src/backend install && npm --prefix src/frontend install",
+    "seed": "npm --prefix src/backend run seed",
+    "seed:reset": "npm --prefix src/backend run seed:reset",
+    "dev:backend": "npm --prefix src/backend run dev",
+    "dev:frontend": "npm --prefix src/frontend run dev",
+    "dev": "concurrently --kill-others -n api,web -c cyan,magenta \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "build": "npm --prefix src/frontend run build",
+    "start": "npm --prefix src/backend start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

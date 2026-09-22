@@ -1,0 +1,847 @@
+text,category,urgency,triage_level
+urgent! sudden slurred speech and weakness on one side of face please advise,neuro,critical,1
+urgent! my 1 year old child is not breathing properly and blue lips,pediatric,critical,1
+"we need help, cardiac arrest, patient not breathing, chest pain before collapse started suddenly",cardiac,critical,1
+"we need help, broken bone suspected after a fall, unable to walk started suddenly",trauma_ortho,high,3
+"fell from height, deformed arm and severe pain it is getting worse",trauma_ortho,critical,1
+"please help, infant with slight rash and mild diarrhoea started suddenly",pediatric,moderate,4
+"my relative has chest pain on exertion, 64 year old with palpitations please advise",cardiac,high,3
+"anaphylaxis after food, swelling of face and throat please advise",general,critical,1
+"please help, mild chest discomfort after walking, no sweating started suddenly",cardiac,moderate,4
+"my relative has choking and gasping for air, oxygen level dropping",respiratory,critical,1
+"urgent! severe difficulty breathing, unable to speak full sentences please advise",respiratory,critical,1
+he collapsed with chest tightness and no pulse it is getting worse,cardiac,critical,1
+"my relative has broken bone suspected after a fall, unable to walk started suddenly",trauma_ortho,high,3
+"we need help, severe headache worst of life with confusion and vomiting please advise",neuro,critical,1
+numbness on right side and slurred speech started 1 hours ago it is getting worse,neuro,high,3
+"urgent! chest pain on exertion, 70 year old with palpitations started suddenly",cardiac,high,3
+my relative has asthma attack not relieved by inhaler,respiratory,high,3
+"we need help, slight breathlessness after climbing stairs it is getting worse",respiratory,moderate,4
+"urgent! road accident, open fracture of leg with heavy bleeding it is getting worse",trauma_ortho,critical,1
+"twisted ankle while walking, mild swelling",trauma_ortho,moderate,4
+"urgent! anaphylaxis after food, swelling of face and throat please advise",general,critical,1
+my relative has my 7 year old child has mild fever and cold it is getting worse,pediatric,moderate,4
+urgent! dehydration with dizziness and weakness please advise,general,high,3
+mild abdominal pain and bloating since yesterday please advise,surgery,moderate,4
+"please help, road accident, open fracture of leg with heavy bleeding started suddenly",trauma_ortho,critical,1
+my relative has he collapsed with chest tightness and no pulse,cardiac,critical,1
+"please help, my 3 year old daughter has high fever and continuous vomiting started suddenly",pediatric,high,3
+"please help, mild fever and body ache since yesterday started suddenly",general,moderate,4
+"please help, recurring migraine with light sensitivity please advise",neuro,moderate,4
+my relative has my father has severe chest pain and sweating he is 70 it is getting worse,cardiac,critical,1
+"my relative has anaphylaxis after food, swelling of face and throat",general,critical,1
+"we need help, food poisoning with diarrhoea, able to drink fluids it is getting worse",general,moderate,4
+"we need help, my 2 year old child has mild fever and cold please advise",pediatric,moderate,4
+"my relative has sprained wrist after a small fall, slight pain please advise",trauma_ortho,moderate,4
+"please help, cardiac arrest, patient not breathing, chest pain before collapse it is getting worse",cardiac,critical,1
+"urgent! anaphylaxis after food, swelling of face and throat it is getting worse",general,critical,1
+"we need help, angina like chest pain, feels pressure in chest started suddenly",cardiac,high,3
+"my relative has broken bone suspected after a fall, unable to walk",trauma_ortho,high,3
+"we need help, dislocated shoulder from bike accident, severe pain started suddenly",trauma_ortho,high,3
+my relative has baby is unresponsive after high fever and convulsion please advise,pediatric,critical,1
+"my relative has seizure episode lasting 10 minutes, now drowsy",neuro,high,3
+"my relative has angina like chest pain, feels pressure in chest started suddenly",cardiac,high,3
+urgent! asthma attack not relieved by inhaler,respiratory,high,3
+my relative has numbness on right side and slurred speech started 2 hours ago,neuro,high,3
+"please help, angina like chest pain, feels pressure in chest started suddenly",cardiac,high,3
+my 10 year old daughter has high fever and continuous vomiting started suddenly,pediatric,high,3
+mild cough and cold for 3 days please advise,respiratory,moderate,4
+"patient is unconscious after a seizure, 70 years old started suddenly",neuro,critical,1
+urgent! vomiting blood and severe abdominal pain started suddenly,surgery,critical,1
+"we need help, chest pain on exertion, 64 year old with palpitations",cardiac,high,3
+"please help, mild cough and cold for 1 days started suddenly",respiratory,moderate,4
+"occasional palpitations, feels fine otherwise please advise",cardiac,moderate,4
+my relative has toddler with difficulty breathing and wheezing please advise,pediatric,high,3
+"urgent! dislocated shoulder from bike accident, severe pain it is getting worse",trauma_ortho,high,3
+"urgent! severe difficulty breathing, unable to speak full sentences please advise",respiratory,critical,1
+"we need help, severe headache worst of life with confusion and vomiting",neuro,critical,1
+urgent! mild abdominal pain and bloating since yesterday please advise,surgery,moderate,4
+"we need help, patient is unconscious after a seizure, 70 years old it is getting worse",neuro,critical,1
+"we need help, baby is unresponsive after high fever and convulsion started suddenly",pediatric,critical,1
+"please help, my 3 year old daughter has high fever and continuous vomiting it is getting worse",pediatric,high,3
+"we need help, fell from height, deformed arm and severe pain please advise",trauma_ortho,critical,1
+he collapsed with chest tightness and no pulse started suddenly,cardiac,critical,1
+"my relative has severe difficulty breathing, unable to speak full sentences",respiratory,critical,1
+"please help, stroke suspected, facial droop and unable to move left arm it is getting worse",neuro,critical,1
+my relative has mild fever and body ache since yesterday,general,moderate,4
+"urgent! twisted ankle while walking, mild swelling please advise",trauma_ortho,moderate,4
+"please help, severe difficulty breathing, unable to speak full sentences it is getting worse",respiratory,critical,1
+my relative has irregular heartbeat and chest discomfort for 4 hours started suddenly,cardiac,high,3
+"we need help, recurring migraine with light sensitivity it is getting worse",neuro,moderate,4
+"we need help, asthma attack not relieved by inhaler it is getting worse",respiratory,high,3
+"we need help, cardiac arrest, patient not breathing, chest pain before collapse please advise",cardiac,critical,1
+"urgent! small laceration on forearm, bleeding controlled started suddenly",surgery,moderate,4
+"we need help, stroke suspected, facial droop and unable to move left arm",neuro,critical,1
+my relative has sudden slurred speech and weakness on one side of face it is getting worse,neuro,critical,1
+urgent! high fever with severe dehydration and fainting it is getting worse,general,critical,1
+urgent! shortness of breath and wheezing since morning,respiratory,high,3
+my relative has dehydration with dizziness and weakness,general,high,3
+vomiting blood and severe abdominal pain started suddenly,surgery,critical,1
+my relative has high fever and persistent vomiting for 2 days please advise,general,high,3
+"please help, food poisoning with diarrhoea, able to drink fluids please advise",general,moderate,4
+"we need help, recurring migraine with light sensitivity it is getting worse",neuro,moderate,4
+"we need help, chest pain on exertion, 64 year old with palpitations",cardiac,high,3
+"we need help, my 5 year old daughter has high fever and continuous vomiting it is getting worse",pediatric,high,3
+urgent! slight breathlessness after climbing stairs started suddenly,respiratory,moderate,4
+my relative has mild fever and body ache since yesterday please advise,general,moderate,4
+urgent! recurring migraine with light sensitivity started suddenly,neuro,moderate,4
+my relative has dehydration with dizziness and weakness it is getting worse,general,high,3
+"urgent! chest pain on exertion, 70 year old with palpitations please advise",cardiac,high,3
+"twisted ankle while walking, mild swelling please advise",trauma_ortho,moderate,4
+"urgent! anaphylaxis after food, swelling of face and throat started suddenly",general,critical,1
+"please help, toddler with difficulty breathing and wheezing it is getting worse",pediatric,high,3
+"please help, high fever and persistent vomiting for 1 days started suddenly",general,high,3
+urgent! irregular heartbeat and chest discomfort for 3 hours,cardiac,high,3
+"my relative has choking and gasping for air, oxygen level dropping",respiratory,critical,1
+"we need help, irregular heartbeat and chest discomfort for 4 hours it is getting worse",cardiac,high,3
+"urgent! stroke suspected, facial droop and unable to move left arm started suddenly",neuro,critical,1
+"please help, burns on hand from boiling water, second degree it is getting worse",surgery,high,3
+"my relative has sprained wrist after a small fall, slight pain",trauma_ortho,moderate,4
+"urgent! cardiac arrest, patient not breathing, chest pain before collapse",cardiac,critical,1
+mild abdominal pain and bloating since yesterday it is getting worse,surgery,moderate,4
+"please help, my father has severe chest pain and sweating he is 52 please advise",cardiac,critical,1
+"please help, appendicitis suspected, severe stomach pain on right side please advise",surgery,high,3
+"we need help, baby is unresponsive after high fever and convulsion started suddenly",pediatric,critical,1
+"my relative has choking and gasping for air, oxygen level dropping it is getting worse",respiratory,critical,1
+"my relative has seizure episode lasting 20 minutes, now drowsy",neuro,high,3
+urgent! my 1 year old child is not breathing properly and blue lips please advise,pediatric,critical,1
+"please help, food poisoning with diarrhoea, able to drink fluids it is getting worse",general,moderate,4
+"my relative has severe difficulty breathing, unable to speak full sentences it is getting worse",respiratory,critical,1
+my relative has deep wound on abdomen with internal bleeding after stab please advise,surgery,critical,1
+"we need help, baby is unresponsive after high fever and convulsion it is getting worse",pediatric,critical,1
+urgent! baby is unresponsive after high fever and convulsion started suddenly,pediatric,critical,1
+my relative has shortness of breath and wheezing since morning please advise,respiratory,high,3
+"small laceration on forearm, bleeding controlled please advise",surgery,moderate,4
+"my relative has patient is unconscious after a seizure, 45 years old please advise",neuro,critical,1
+"we need help, slight breathlessness after climbing stairs started suddenly",respiratory,moderate,4
+"we need help, deep wound on abdomen with internal bleeding after stab it is getting worse",surgery,critical,1
+high fever with severe dehydration and fainting,general,critical,1
+"please help, small laceration on forearm, bleeding controlled please advise",surgery,moderate,4
+"we need help, severe headache worst of life with confusion and vomiting started suddenly",neuro,critical,1
+"we need help, road accident, open fracture of leg with heavy bleeding please advise",trauma_ortho,critical,1
+urgent! he collapsed with chest tightness and no pulse,cardiac,critical,1
+"we need help, anaphylaxis after food, swelling of face and throat started suddenly",general,critical,1
+vomiting blood and severe abdominal pain started suddenly,surgery,critical,1
+"my relative has broken bone suspected after a fall, unable to walk it is getting worse",trauma_ortho,high,3
+my relative has mild dizziness and tingling in fingers please advise,neuro,moderate,4
+"my relative has appendicitis suspected, severe stomach pain on right side",surgery,high,3
+"food poisoning with diarrhoea, able to drink fluids started suddenly",general,moderate,4
+"we need help, chest pain on exertion, 45 year old with palpitations started suddenly",cardiac,high,3
+mild dizziness and tingling in fingers please advise,neuro,moderate,4
+"please help, burns on hand from boiling water, second degree",surgery,high,3
+"please help, food poisoning with diarrhoea, able to drink fluids",general,moderate,4
+"please help, chest pain on exertion, 64 year old with palpitations it is getting worse",cardiac,high,3
+"urgent! mild chest discomfort after walking, no sweating please advise",cardiac,moderate,4
+"my relative has mild chest discomfort after walking, no sweating it is getting worse",cardiac,moderate,4
+severe headache worst of life with confusion and vomiting please advise,neuro,critical,1
+"my relative has broken bone suspected after a fall, unable to walk please advise",trauma_ortho,high,3
+"stroke suspected, facial droop and unable to move left arm it is getting worse",neuro,critical,1
+"we need help, mild chest discomfort after walking, no sweating please advise",cardiac,moderate,4
+urgent! my 2 year old child is not breathing properly and blue lips it is getting worse,pediatric,critical,1
+"twisted ankle while walking, mild swelling",trauma_ortho,moderate,4
+"urgent! chest pain on exertion, 64 year old with palpitations it is getting worse",cardiac,high,3
+"we need help, twisted ankle while walking, mild swelling please advise",trauma_ortho,moderate,4
+"we need help, burns on hand from boiling water, second degree",surgery,high,3
+"twisted ankle while walking, mild swelling",trauma_ortho,moderate,4
+"we need help, cardiac arrest, patient not breathing, chest pain before collapse please advise",cardiac,critical,1
+"please help, vomiting blood and severe abdominal pain please advise",surgery,critical,1
+"we need help, mild chest discomfort after walking, no sweating",cardiac,moderate,4
+"my relative has burns on hand from boiling water, second degree it is getting worse",surgery,high,3
+urgent! toddler with difficulty breathing and wheezing started suddenly,pediatric,high,3
+"angina like chest pain, feels pressure in chest please advise",cardiac,high,3
+urgent! recurring migraine with light sensitivity started suddenly,neuro,moderate,4
+"please help, dehydration with dizziness and weakness started suddenly",general,high,3
+"we need help, choking and gasping for air, oxygen level dropping started suddenly",respiratory,critical,1
+urgent! crushing chest pain radiating to the left arm since 5 minutes please advise,cardiac,critical,1
+"urgent! food poisoning with diarrhoea, able to drink fluids please advise",general,moderate,4
+"we need help, infant with slight rash and mild diarrhoea it is getting worse",pediatric,moderate,4
+vomiting blood and severe abdominal pain started suddenly,surgery,critical,1
+"please help, seizure episode lasting 5 minutes, now drowsy started suddenly",neuro,high,3
+"we need help, angina like chest pain, feels pressure in chest please advise",cardiac,high,3
+"please help, twisted ankle while walking, mild swelling",trauma_ortho,moderate,4
+urgent! my father has severe chest pain and sweating he is 64 it is getting worse,cardiac,critical,1
+"please help, my father has severe chest pain and sweating he is 45",cardiac,critical,1
+"we need help, fell from height, deformed arm and severe pain",trauma_ortho,critical,1
+"please help, high fever and persistent vomiting for 4 days it is getting worse",general,high,3
+my relative has infant with slight rash and mild diarrhoea please advise,pediatric,moderate,4
+urgent! numbness on right side and slurred speech started 6 hours ago it is getting worse,neuro,high,3
+"we need help, cardiac arrest, patient not breathing, chest pain before collapse it is getting worse",cardiac,critical,1
+"urgent! mild chest discomfort after walking, no sweating",cardiac,moderate,4
+"my relative has fell from height, deformed arm and severe pain it is getting worse",trauma_ortho,critical,1
+"urgent! mild chest discomfort after walking, no sweating it is getting worse",cardiac,moderate,4
+"please help, occasional palpitations, feels fine otherwise started suddenly",cardiac,moderate,4
+urgent! my 10 year old daughter has high fever and continuous vomiting started suddenly,pediatric,high,3
+"please help, asthma attack not relieved by inhaler started suddenly",respiratory,high,3
+urgent! baby is unresponsive after high fever and convulsion,pediatric,critical,1
+"urgent! broken bone suspected after a fall, unable to walk please advise",trauma_ortho,high,3
+high fever and persistent vomiting for 2 days started suddenly,general,high,3
+"please help, high fever with severe dehydration and fainting started suddenly",general,critical,1
+"please help, recurring migraine with light sensitivity started suddenly",neuro,moderate,4
+my relative has mild cough and cold for 3 days started suddenly,respiratory,moderate,4
+"please help, deep wound on abdomen with internal bleeding after stab please advise",surgery,critical,1
+asthma attack not relieved by inhaler please advise,respiratory,high,3
+"we need help, high fever with severe dehydration and fainting please advise",general,critical,1
+dehydration with dizziness and weakness it is getting worse,general,high,3
+"urgent! anaphylaxis after food, swelling of face and throat started suddenly",general,critical,1
+"we need help, broken bone suspected after a fall, unable to walk",trauma_ortho,high,3
+"please help, angina like chest pain, feels pressure in chest it is getting worse",cardiac,high,3
+"food poisoning with diarrhoea, able to drink fluids it is getting worse",general,moderate,4
+"we need help, road accident, open fracture of leg with heavy bleeding please advise",trauma_ortho,critical,1
+my relative has baby is unresponsive after high fever and convulsion,pediatric,critical,1
+"we need help, stroke suspected, facial droop and unable to move left arm it is getting worse",neuro,critical,1
+"urgent! appendicitis suspected, severe stomach pain on right side please advise",surgery,high,3
+"we need help, my 10 year old child is not breathing properly and blue lips",pediatric,critical,1
+crushing chest pain radiating to the left arm since 30 minutes,cardiac,critical,1
+"urgent! stroke suspected, facial droop and unable to move left arm please advise",neuro,critical,1
+"we need help, severe headache worst of life with confusion and vomiting",neuro,critical,1
+urgent! sudden slurred speech and weakness on one side of face,neuro,critical,1
+"we need help, dislocated shoulder from bike accident, severe pain started suddenly",trauma_ortho,high,3
+"urgent! food poisoning with diarrhoea, able to drink fluids please advise",general,moderate,4
+"we need help, slight breathlessness after climbing stairs it is getting worse",respiratory,moderate,4
+"please help, my father has severe chest pain and sweating he is 45 please advise",cardiac,critical,1
+"we need help, infant with slight rash and mild diarrhoea",pediatric,moderate,4
+"please help, toddler with difficulty breathing and wheezing please advise",pediatric,high,3
+urgent! recurring migraine with light sensitivity it is getting worse,neuro,moderate,4
+"we need help, crushing chest pain radiating to the left arm since 5 minutes",cardiac,critical,1
+"we need help, seizure episode lasting 5 minutes, now drowsy please advise",neuro,high,3
+my relative has sudden slurred speech and weakness on one side of face,neuro,critical,1
+"fell from height, deformed arm and severe pain",trauma_ortho,critical,1
+my relative has baby is unresponsive after high fever and convulsion it is getting worse,pediatric,critical,1
+"we need help, mild dizziness and tingling in fingers please advise",neuro,moderate,4
+mild fever and body ache since yesterday it is getting worse,general,moderate,4
+dehydration with dizziness and weakness started suddenly,general,high,3
+"please help, mild chest discomfort after walking, no sweating started suddenly",cardiac,moderate,4
+urgent! he collapsed with chest tightness and no pulse please advise,cardiac,critical,1
+"please help, shortness of breath and wheezing since morning please advise",respiratory,high,3
+"we need help, mild abdominal pain and bloating since yesterday it is getting worse",surgery,moderate,4
+"we need help, dislocated shoulder from bike accident, severe pain started suddenly",trauma_ortho,high,3
+"please help, fell from height, deformed arm and severe pain",trauma_ortho,critical,1
+"urgent! road accident, open fracture of leg with heavy bleeding please advise",trauma_ortho,critical,1
+"we need help, high fever with severe dehydration and fainting please advise",general,critical,1
+"please help, recurring migraine with light sensitivity started suddenly",neuro,moderate,4
+numbness on right side and slurred speech started 6 hours ago please advise,neuro,high,3
+"we need help, asthma attack not relieved by inhaler",respiratory,high,3
+"please help, high fever and persistent vomiting for 2 days",general,high,3
+"please help, mild fever and body ache since yesterday please advise",general,moderate,4
+urgent! slight breathlessness after climbing stairs please advise,respiratory,moderate,4
+"occasional palpitations, feels fine otherwise started suddenly",cardiac,moderate,4
+my relative has numbness on right side and slurred speech started 3 hours ago started suddenly,neuro,high,3
+"we need help, severe difficulty breathing, unable to speak full sentences it is getting worse",respiratory,critical,1
+"we need help, food poisoning with diarrhoea, able to drink fluids please advise",general,moderate,4
+"please help, dehydration with dizziness and weakness it is getting worse",general,high,3
+"we need help, sprained wrist after a small fall, slight pain please advise",trauma_ortho,moderate,4
+"my relative has sprained wrist after a small fall, slight pain please advise",trauma_ortho,moderate,4
+"we need help, severe headache worst of life with confusion and vomiting",neuro,critical,1
+"appendicitis suspected, severe stomach pain on right side please advise",surgery,high,3
+"we need help, deep wound on abdomen with internal bleeding after stab please advise",surgery,critical,1
+"please help, crushing chest pain radiating to the left arm since 5 minutes it is getting worse",cardiac,critical,1
+"we need help, dislocated shoulder from bike accident, severe pain started suddenly",trauma_ortho,high,3
+"my relative has stroke suspected, facial droop and unable to move left arm it is getting worse",neuro,critical,1
+"we need help, mild chest discomfort after walking, no sweating started suddenly",cardiac,moderate,4
+"please help, patient is unconscious after a seizure, 58 years old",neuro,critical,1
+my relative has numbness on right side and slurred speech started 2 hours ago,neuro,high,3
+my relative has my father has severe chest pain and sweating he is 70 please advise,cardiac,critical,1
+"please help, sprained wrist after a small fall, slight pain started suddenly",trauma_ortho,moderate,4
+urgent! severe headache worst of life with confusion and vomiting it is getting worse,neuro,critical,1
+my relative has irregular heartbeat and chest discomfort for 1 hours started suddenly,cardiac,high,3
+my relative has my 4 year old child has mild fever and cold it is getting worse,pediatric,moderate,4
+my relative has my 2 year old child is not breathing properly and blue lips please advise,pediatric,critical,1
+"please help, shortness of breath and wheezing since morning it is getting worse",respiratory,high,3
+"please help, crushing chest pain radiating to the left arm since 20 minutes please advise",cardiac,critical,1
+severe headache worst of life with confusion and vomiting please advise,neuro,critical,1
+"urgent! burns on hand from boiling water, second degree please advise",surgery,high,3
+"my relative has mild chest discomfort after walking, no sweating it is getting worse",cardiac,moderate,4
+"we need help, occasional palpitations, feels fine otherwise please advise",cardiac,moderate,4
+my relative has vomiting blood and severe abdominal pain please advise,surgery,critical,1
+"please help, asthma attack not relieved by inhaler please advise",respiratory,high,3
+urgent! he collapsed with chest tightness and no pulse,cardiac,critical,1
+my relative has sudden slurred speech and weakness on one side of face,neuro,critical,1
+"please help, road accident, open fracture of leg with heavy bleeding",trauma_ortho,critical,1
+"food poisoning with diarrhoea, able to drink fluids",general,moderate,4
+"please help, asthma attack not relieved by inhaler it is getting worse",respiratory,high,3
+my relative has sudden slurred speech and weakness on one side of face,neuro,critical,1
+"we need help, sprained wrist after a small fall, slight pain started suddenly",trauma_ortho,moderate,4
+"please help, irregular heartbeat and chest discomfort for 1 hours started suddenly",cardiac,high,3
+"we need help, small laceration on forearm, bleeding controlled it is getting worse",surgery,moderate,4
+"stroke suspected, facial droop and unable to move left arm",neuro,critical,1
+"we need help, occasional palpitations, feels fine otherwise started suddenly",cardiac,moderate,4
+"please help, mild abdominal pain and bloating since yesterday",surgery,moderate,4
+"please help, sprained wrist after a small fall, slight pain it is getting worse",trauma_ortho,moderate,4
+"please help, chest pain on exertion, 45 year old with palpitations started suddenly",cardiac,high,3
+"please help, my father has severe chest pain and sweating he is 76 please advise",cardiac,critical,1
+"please help, cardiac arrest, patient not breathing, chest pain before collapse started suddenly",cardiac,critical,1
+urgent! toddler with difficulty breathing and wheezing it is getting worse,pediatric,high,3
+"we need help, mild cough and cold for 4 days it is getting worse",respiratory,moderate,4
+"we need help, small laceration on forearm, bleeding controlled please advise",surgery,moderate,4
+"we need help, numbness on right side and slurred speech started 2 hours ago it is getting worse",neuro,high,3
+my relative has shortness of breath and wheezing since morning please advise,respiratory,high,3
+urgent! high fever with severe dehydration and fainting it is getting worse,general,critical,1
+urgent! slight breathlessness after climbing stairs please advise,respiratory,moderate,4
+my relative has crushing chest pain radiating to the left arm since 10 minutes please advise,cardiac,critical,1
+"urgent! small laceration on forearm, bleeding controlled please advise",surgery,moderate,4
+"choking and gasping for air, oxygen level dropping it is getting worse",respiratory,critical,1
+irregular heartbeat and chest discomfort for 1 hours please advise,cardiac,high,3
+"please help, dehydration with dizziness and weakness started suddenly",general,high,3
+"broken bone suspected after a fall, unable to walk started suddenly",trauma_ortho,high,3
+"twisted ankle while walking, mild swelling started suddenly",trauma_ortho,moderate,4
+mild fever and body ache since yesterday it is getting worse,general,moderate,4
+my relative has baby is unresponsive after high fever and convulsion started suddenly,pediatric,critical,1
+my relative has baby is unresponsive after high fever and convulsion it is getting worse,pediatric,critical,1
+"please help, high fever with severe dehydration and fainting please advise",general,critical,1
+"urgent! chest pain on exertion, 64 year old with palpitations started suddenly",cardiac,high,3
+my 7 year old child has mild fever and cold it is getting worse,pediatric,moderate,4
+"please help, recurring migraine with light sensitivity started suddenly",neuro,moderate,4
+urgent! sudden slurred speech and weakness on one side of face it is getting worse,neuro,critical,1
+"urgent! broken bone suspected after a fall, unable to walk",trauma_ortho,high,3
+"we need help, choking and gasping for air, oxygen level dropping please advise",respiratory,critical,1
+urgent! severe headache worst of life with confusion and vomiting it is getting worse,neuro,critical,1
+"we need help, irregular heartbeat and chest discomfort for 3 hours it is getting worse",cardiac,high,3
+"urgent! burns on hand from boiling water, second degree started suddenly",surgery,high,3
+my 7 year old child has mild fever and cold it is getting worse,pediatric,moderate,4
+"urgent! dislocated shoulder from bike accident, severe pain",trauma_ortho,high,3
+"urgent! seizure episode lasting 30 minutes, now drowsy please advise",neuro,high,3
+my relative has high fever with severe dehydration and fainting it is getting worse,general,critical,1
+"urgent! food poisoning with diarrhoea, able to drink fluids started suddenly",general,moderate,4
+my 10 year old child has mild fever and cold,pediatric,moderate,4
+"please help, angina like chest pain, feels pressure in chest it is getting worse",cardiac,high,3
+my relative has mild abdominal pain and bloating since yesterday please advise,surgery,moderate,4
+"we need help, mild dizziness and tingling in fingers it is getting worse",neuro,moderate,4
+"we need help, stroke suspected, facial droop and unable to move left arm",neuro,critical,1
+"we need help, mild fever and body ache since yesterday started suddenly",general,moderate,4
+deep wound on abdomen with internal bleeding after stab,surgery,critical,1
+"please help, shortness of breath and wheezing since morning started suddenly",respiratory,high,3
+urgent! shortness of breath and wheezing since morning started suddenly,respiratory,high,3
+"we need help, severe difficulty breathing, unable to speak full sentences it is getting worse",respiratory,critical,1
+"we need help, fell from height, deformed arm and severe pain it is getting worse",trauma_ortho,critical,1
+"please help, high fever and persistent vomiting for 1 days",general,high,3
+"we need help, shortness of breath and wheezing since morning",respiratory,high,3
+"we need help, small laceration on forearm, bleeding controlled",surgery,moderate,4
+"we need help, baby is unresponsive after high fever and convulsion started suddenly",pediatric,critical,1
+"my relative has cardiac arrest, patient not breathing, chest pain before collapse it is getting worse",cardiac,critical,1
+"please help, toddler with difficulty breathing and wheezing it is getting worse",pediatric,high,3
+"please help, road accident, open fracture of leg with heavy bleeding please advise",trauma_ortho,critical,1
+"we need help, sudden slurred speech and weakness on one side of face please advise",neuro,critical,1
+"my relative has occasional palpitations, feels fine otherwise please advise",cardiac,moderate,4
+urgent! mild abdominal pain and bloating since yesterday started suddenly,surgery,moderate,4
+"please help, mild fever and body ache since yesterday",general,moderate,4
+"urgent! seizure episode lasting 30 minutes, now drowsy please advise",neuro,high,3
+my relative has mild cough and cold for 3 days please advise,respiratory,moderate,4
+"urgent! burns on hand from boiling water, second degree started suddenly",surgery,high,3
+"food poisoning with diarrhoea, able to drink fluids",general,moderate,4
+"please help, infant with slight rash and mild diarrhoea please advise",pediatric,moderate,4
+my relative has high fever and persistent vomiting for 3 days it is getting worse,general,high,3
+"we need help, seizure episode lasting 10 minutes, now drowsy it is getting worse",neuro,high,3
+"we need help, severe headache worst of life with confusion and vomiting",neuro,critical,1
+"we need help, asthma attack not relieved by inhaler please advise",respiratory,high,3
+"small laceration on forearm, bleeding controlled it is getting worse",surgery,moderate,4
+urgent! shortness of breath and wheezing since morning started suddenly,respiratory,high,3
+"anaphylaxis after food, swelling of face and throat started suddenly",general,critical,1
+"patient is unconscious after a seizure, 76 years old it is getting worse",neuro,critical,1
+urgent! toddler with difficulty breathing and wheezing please advise,pediatric,high,3
+"please help, my 7 year old daughter has high fever and continuous vomiting",pediatric,high,3
+"urgent! appendicitis suspected, severe stomach pain on right side please advise",surgery,high,3
+"my relative has angina like chest pain, feels pressure in chest",cardiac,high,3
+"we need help, angina like chest pain, feels pressure in chest",cardiac,high,3
+"we need help, seizure episode lasting 5 minutes, now drowsy please advise",neuro,high,3
+"my relative has dislocated shoulder from bike accident, severe pain it is getting worse",trauma_ortho,high,3
+"my relative has fell from height, deformed arm and severe pain it is getting worse",trauma_ortho,critical,1
+slight breathlessness after climbing stairs it is getting worse,respiratory,moderate,4
+my relative has severe headache worst of life with confusion and vomiting please advise,neuro,critical,1
+my relative has he collapsed with chest tightness and no pulse it is getting worse,cardiac,critical,1
+"we need help, vomiting blood and severe abdominal pain please advise",surgery,critical,1
+"we need help, burns on hand from boiling water, second degree",surgery,high,3
+"we need help, severe difficulty breathing, unable to speak full sentences it is getting worse",respiratory,critical,1
+"we need help, mild dizziness and tingling in fingers started suddenly",neuro,moderate,4
+"choking and gasping for air, oxygen level dropping started suddenly",respiratory,critical,1
+my relative has high fever with severe dehydration and fainting it is getting worse,general,critical,1
+mild fever and body ache since yesterday it is getting worse,general,moderate,4
+"we need help, sprained wrist after a small fall, slight pain please advise",trauma_ortho,moderate,4
+my relative has irregular heartbeat and chest discomfort for 4 hours it is getting worse,cardiac,high,3
+vomiting blood and severe abdominal pain started suddenly,surgery,critical,1
+"urgent! twisted ankle while walking, mild swelling",trauma_ortho,moderate,4
+"we need help, dehydration with dizziness and weakness it is getting worse",general,high,3
+high fever with severe dehydration and fainting started suddenly,general,critical,1
+severe headache worst of life with confusion and vomiting it is getting worse,neuro,critical,1
+baby is unresponsive after high fever and convulsion please advise,pediatric,critical,1
+"my relative has broken bone suspected after a fall, unable to walk",trauma_ortho,high,3
+"please help, road accident, open fracture of leg with heavy bleeding",trauma_ortho,critical,1
+"we need help, mild dizziness and tingling in fingers it is getting worse",neuro,moderate,4
+"please help, infant with slight rash and mild diarrhoea it is getting worse",pediatric,moderate,4
+"we need help, deep wound on abdomen with internal bleeding after stab",surgery,critical,1
+"please help, irregular heartbeat and chest discomfort for 6 hours started suddenly",cardiac,high,3
+"my relative has stroke suspected, facial droop and unable to move left arm it is getting worse",neuro,critical,1
+my relative has severe headache worst of life with confusion and vomiting started suddenly,neuro,critical,1
+"we need help, vomiting blood and severe abdominal pain started suddenly",surgery,critical,1
+crushing chest pain radiating to the left arm since 10 minutes please advise,cardiac,critical,1
+"urgent! patient is unconscious after a seizure, 45 years old please advise",neuro,critical,1
+"we need help, cardiac arrest, patient not breathing, chest pain before collapse started suddenly",cardiac,critical,1
+my relative has deep wound on abdomen with internal bleeding after stab please advise,surgery,critical,1
+"my relative has broken bone suspected after a fall, unable to walk started suddenly",trauma_ortho,high,3
+"seizure episode lasting 5 minutes, now drowsy started suddenly",neuro,high,3
+"we need help, my father has severe chest pain and sweating he is 58 started suddenly",cardiac,critical,1
+"we need help, my 1 year old child has mild fever and cold started suddenly",pediatric,moderate,4
+urgent! mild cough and cold for 4 days started suddenly,respiratory,moderate,4
+"please help, my 7 year old daughter has high fever and continuous vomiting it is getting worse",pediatric,high,3
+my relative has high fever and persistent vomiting for 3 days please advise,general,high,3
+sudden slurred speech and weakness on one side of face started suddenly,neuro,critical,1
+"urgent! road accident, open fracture of leg with heavy bleeding it is getting worse",trauma_ortho,critical,1
+my relative has my 2 year old child is not breathing properly and blue lips started suddenly,pediatric,critical,1
+my 1 year old child is not breathing properly and blue lips started suddenly,pediatric,critical,1
+"we need help, shortness of breath and wheezing since morning please advise",respiratory,high,3
+"angina like chest pain, feels pressure in chest started suddenly",cardiac,high,3
+"we need help, mild dizziness and tingling in fingers it is getting worse",neuro,moderate,4
+"please help, slight breathlessness after climbing stairs it is getting worse",respiratory,moderate,4
+"please help, dislocated shoulder from bike accident, severe pain it is getting worse",trauma_ortho,high,3
+"we need help, chest pain on exertion, 70 year old with palpitations please advise",cardiac,high,3
+"please help, mild cough and cold for 1 days it is getting worse",respiratory,moderate,4
+"my relative has anaphylaxis after food, swelling of face and throat it is getting worse",general,critical,1
+my 7 year old child has mild fever and cold it is getting worse,pediatric,moderate,4
+urgent! baby is unresponsive after high fever and convulsion,pediatric,critical,1
+"we need help, recurring migraine with light sensitivity it is getting worse",neuro,moderate,4
+"appendicitis suspected, severe stomach pain on right side",surgery,high,3
+"please help, slight breathlessness after climbing stairs it is getting worse",respiratory,moderate,4
+urgent! numbness on right side and slurred speech started 3 hours ago started suddenly,neuro,high,3
+my relative has recurring migraine with light sensitivity started suddenly,neuro,moderate,4
+"please help, road accident, open fracture of leg with heavy bleeding",trauma_ortho,critical,1
+"please help, my father has severe chest pain and sweating he is 45",cardiac,critical,1
+"please help, cardiac arrest, patient not breathing, chest pain before collapse please advise",cardiac,critical,1
+"food poisoning with diarrhoea, able to drink fluids it is getting worse",general,moderate,4
+"my relative has chest pain on exertion, 70 year old with palpitations please advise",cardiac,high,3
+"my relative has chest pain on exertion, 76 year old with palpitations started suddenly",cardiac,high,3
+mild abdominal pain and bloating since yesterday,surgery,moderate,4
+"cardiac arrest, patient not breathing, chest pain before collapse it is getting worse",cardiac,critical,1
+slight breathlessness after climbing stairs it is getting worse,respiratory,moderate,4
+urgent! severe headache worst of life with confusion and vomiting,neuro,critical,1
+"please help, twisted ankle while walking, mild swelling it is getting worse",trauma_ortho,moderate,4
+high fever and persistent vomiting for 3 days,general,high,3
+"we need help, recurring migraine with light sensitivity it is getting worse",neuro,moderate,4
+"we need help, mild chest discomfort after walking, no sweating it is getting worse",cardiac,moderate,4
+"we need help, occasional palpitations, feels fine otherwise it is getting worse",cardiac,moderate,4
+"please help, irregular heartbeat and chest discomfort for 4 hours it is getting worse",cardiac,high,3
+urgent! irregular heartbeat and chest discomfort for 2 hours it is getting worse,cardiac,high,3
+"we need help, sudden slurred speech and weakness on one side of face it is getting worse",neuro,critical,1
+my relative has irregular heartbeat and chest discomfort for 3 hours it is getting worse,cardiac,high,3
+"my relative has fell from height, deformed arm and severe pain it is getting worse",trauma_ortho,critical,1
+"please help, deep wound on abdomen with internal bleeding after stab it is getting worse",surgery,critical,1
+urgent! slight breathlessness after climbing stairs started suddenly,respiratory,moderate,4
+"we need help, asthma attack not relieved by inhaler started suddenly",respiratory,high,3
+my relative has baby is unresponsive after high fever and convulsion it is getting worse,pediatric,critical,1
+my relative has vomiting blood and severe abdominal pain started suddenly,surgery,critical,1
+"twisted ankle while walking, mild swelling",trauma_ortho,moderate,4
+"please help, my 4 year old child has mild fever and cold please advise",pediatric,moderate,4
+"twisted ankle while walking, mild swelling",trauma_ortho,moderate,4
+numbness on right side and slurred speech started 3 hours ago please advise,neuro,high,3
+my relative has asthma attack not relieved by inhaler started suddenly,respiratory,high,3
+my relative has crushing chest pain radiating to the left arm since 20 minutes please advise,cardiac,critical,1
+"seizure episode lasting 5 minutes, now drowsy",neuro,high,3
+"we need help, slight breathlessness after climbing stairs it is getting worse",respiratory,moderate,4
+mild abdominal pain and bloating since yesterday it is getting worse,surgery,moderate,4
+"choking and gasping for air, oxygen level dropping please advise",respiratory,critical,1
+"please help, vomiting blood and severe abdominal pain it is getting worse",surgery,critical,1
+"urgent! broken bone suspected after a fall, unable to walk please advise",trauma_ortho,high,3
+"we need help, crushing chest pain radiating to the left arm since 15 minutes",cardiac,critical,1
+"we need help, high fever with severe dehydration and fainting it is getting worse",general,critical,1
+"we need help, my father has severe chest pain and sweating he is 45",cardiac,critical,1
+my relative has my 4 year old daughter has high fever and continuous vomiting started suddenly,pediatric,high,3
+numbness on right side and slurred speech started 3 hours ago please advise,neuro,high,3
+"we need help, severe difficulty breathing, unable to speak full sentences",respiratory,critical,1
+"we need help, dislocated shoulder from bike accident, severe pain please advise",trauma_ortho,high,3
+toddler with difficulty breathing and wheezing started suddenly,pediatric,high,3
+"urgent! seizure episode lasting 15 minutes, now drowsy started suddenly",neuro,high,3
+urgent! crushing chest pain radiating to the left arm since 5 minutes,cardiac,critical,1
+"dislocated shoulder from bike accident, severe pain",trauma_ortho,high,3
+my relative has irregular heartbeat and chest discomfort for 1 hours please advise,cardiac,high,3
+"please help, small laceration on forearm, bleeding controlled please advise",surgery,moderate,4
+my relative has dehydration with dizziness and weakness started suddenly,general,high,3
+"we need help, numbness on right side and slurred speech started 1 hours ago please advise",neuro,high,3
+"we need help, deep wound on abdomen with internal bleeding after stab please advise",surgery,critical,1
+"please help, choking and gasping for air, oxygen level dropping",respiratory,critical,1
+"we need help, vomiting blood and severe abdominal pain please advise",surgery,critical,1
+urgent! shortness of breath and wheezing since morning,respiratory,high,3
+"please help, chest pain on exertion, 76 year old with palpitations",cardiac,high,3
+"please help, shortness of breath and wheezing since morning",respiratory,high,3
+"sprained wrist after a small fall, slight pain it is getting worse",trauma_ortho,moderate,4
+"my relative has occasional palpitations, feels fine otherwise",cardiac,moderate,4
+urgent! shortness of breath and wheezing since morning,respiratory,high,3
+vomiting blood and severe abdominal pain started suddenly,surgery,critical,1
+"we need help, dislocated shoulder from bike accident, severe pain please advise",trauma_ortho,high,3
+my relative has slight breathlessness after climbing stairs,respiratory,moderate,4
+my relative has asthma attack not relieved by inhaler please advise,respiratory,high,3
+my relative has irregular heartbeat and chest discomfort for 1 hours,cardiac,high,3
+"please help, chest pain on exertion, 76 year old with palpitations it is getting worse",cardiac,high,3
+my relative has mild cough and cold for 4 days started suddenly,respiratory,moderate,4
+"we need help, appendicitis suspected, severe stomach pain on right side",surgery,high,3
+"we need help, seizure episode lasting 5 minutes, now drowsy started suddenly",neuro,high,3
+"urgent! sprained wrist after a small fall, slight pain started suddenly",trauma_ortho,moderate,4
+"we need help, choking and gasping for air, oxygen level dropping",respiratory,critical,1
+slight breathlessness after climbing stairs it is getting worse,respiratory,moderate,4
+"please help, high fever and persistent vomiting for 4 days",general,high,3
+he collapsed with chest tightness and no pulse please advise,cardiac,critical,1
+my relative has high fever with severe dehydration and fainting it is getting worse,general,critical,1
+"please help, irregular heartbeat and chest discomfort for 3 hours",cardiac,high,3
+slight breathlessness after climbing stairs,respiratory,moderate,4
+"please help, shortness of breath and wheezing since morning please advise",respiratory,high,3
+"urgent! sprained wrist after a small fall, slight pain please advise",trauma_ortho,moderate,4
+"we need help, small laceration on forearm, bleeding controlled",surgery,moderate,4
+my 10 year old child is not breathing properly and blue lips,pediatric,critical,1
+"we need help, toddler with difficulty breathing and wheezing started suddenly",pediatric,high,3
+mild abdominal pain and bloating since yesterday,surgery,moderate,4
+urgent! numbness on right side and slurred speech started 4 hours ago please advise,neuro,high,3
+"please help, angina like chest pain, feels pressure in chest it is getting worse",cardiac,high,3
+"we need help, occasional palpitations, feels fine otherwise started suddenly",cardiac,moderate,4
+mild abdominal pain and bloating since yesterday started suddenly,surgery,moderate,4
+my relative has my 3 year old daughter has high fever and continuous vomiting started suddenly,pediatric,high,3
+"we need help, dehydration with dizziness and weakness started suddenly",general,high,3
+"patient is unconscious after a seizure, 64 years old it is getting worse",neuro,critical,1
+urgent! my 2 year old daughter has high fever and continuous vomiting it is getting worse,pediatric,high,3
+high fever and persistent vomiting for 4 days please advise,general,high,3
+"please help, numbness on right side and slurred speech started 3 hours ago started suddenly",neuro,high,3
+"please help, asthma attack not relieved by inhaler it is getting worse",respiratory,high,3
+"we need help, stroke suspected, facial droop and unable to move left arm started suddenly",neuro,critical,1
+my relative has high fever with severe dehydration and fainting it is getting worse,general,critical,1
+"please help, my father has severe chest pain and sweating he is 45 started suddenly",cardiac,critical,1
+"urgent! dislocated shoulder from bike accident, severe pain it is getting worse",trauma_ortho,high,3
+"please help, occasional palpitations, feels fine otherwise it is getting worse",cardiac,moderate,4
+"we need help, vomiting blood and severe abdominal pain",surgery,critical,1
+"dislocated shoulder from bike accident, severe pain started suddenly",trauma_ortho,high,3
+"my relative has occasional palpitations, feels fine otherwise it is getting worse",cardiac,moderate,4
+"please help, dehydration with dizziness and weakness please advise",general,high,3
+"we need help, sprained wrist after a small fall, slight pain please advise",trauma_ortho,moderate,4
+my relative has vomiting blood and severe abdominal pain,surgery,critical,1
+toddler with difficulty breathing and wheezing,pediatric,high,3
+mild dizziness and tingling in fingers started suddenly,neuro,moderate,4
+"my relative has patient is unconscious after a seizure, 64 years old",neuro,critical,1
+"sprained wrist after a small fall, slight pain please advise",trauma_ortho,moderate,4
+"we need help, sudden slurred speech and weakness on one side of face it is getting worse",neuro,critical,1
+"we need help, twisted ankle while walking, mild swelling it is getting worse",trauma_ortho,moderate,4
+"my relative has broken bone suspected after a fall, unable to walk",trauma_ortho,high,3
+crushing chest pain radiating to the left arm since 20 minutes,cardiac,critical,1
+"please help, recurring migraine with light sensitivity it is getting worse",neuro,moderate,4
+"urgent! occasional palpitations, feels fine otherwise",cardiac,moderate,4
+high fever and persistent vomiting for 2 days please advise,general,high,3
+"please help, toddler with difficulty breathing and wheezing it is getting worse",pediatric,high,3
+"please help, infant with slight rash and mild diarrhoea please advise",pediatric,moderate,4
+"urgent! stroke suspected, facial droop and unable to move left arm it is getting worse",neuro,critical,1
+urgent! crushing chest pain radiating to the left arm since 20 minutes please advise,cardiac,critical,1
+"road accident, open fracture of leg with heavy bleeding it is getting worse",trauma_ortho,critical,1
+"please help, my 1 year old child has mild fever and cold",pediatric,moderate,4
+"my relative has cardiac arrest, patient not breathing, chest pain before collapse please advise",cardiac,critical,1
+"urgent! severe difficulty breathing, unable to speak full sentences",respiratory,critical,1
+"urgent! burns on hand from boiling water, second degree please advise",surgery,high,3
+"we need help, asthma attack not relieved by inhaler please advise",respiratory,high,3
+"we need help, burns on hand from boiling water, second degree",surgery,high,3
+"urgent! occasional palpitations, feels fine otherwise it is getting worse",cardiac,moderate,4
+mild abdominal pain and bloating since yesterday please advise,surgery,moderate,4
+"my relative has mild chest discomfort after walking, no sweating started suddenly",cardiac,moderate,4
+"we need help, infant with slight rash and mild diarrhoea started suddenly",pediatric,moderate,4
+urgent! mild fever and body ache since yesterday,general,moderate,4
+"we need help, mild abdominal pain and bloating since yesterday",surgery,moderate,4
+"urgent! broken bone suspected after a fall, unable to walk please advise",trauma_ortho,high,3
+"please help, fell from height, deformed arm and severe pain started suddenly",trauma_ortho,critical,1
+"we need help, my 7 year old daughter has high fever and continuous vomiting started suddenly",pediatric,high,3
+"please help, sudden slurred speech and weakness on one side of face",neuro,critical,1
+"we need help, crushing chest pain radiating to the left arm since 20 minutes started suddenly",cardiac,critical,1
+high fever with severe dehydration and fainting please advise,general,critical,1
+"my relative has broken bone suspected after a fall, unable to walk please advise",trauma_ortho,high,3
+"we need help, my 2 year old daughter has high fever and continuous vomiting",pediatric,high,3
+"we need help, shortness of breath and wheezing since morning please advise",respiratory,high,3
+"please help, severe difficulty breathing, unable to speak full sentences it is getting worse",respiratory,critical,1
+my relative has shortness of breath and wheezing since morning started suddenly,respiratory,high,3
+"urgent! small laceration on forearm, bleeding controlled started suddenly",surgery,moderate,4
+"road accident, open fracture of leg with heavy bleeding started suddenly",trauma_ortho,critical,1
+urgent! asthma attack not relieved by inhaler started suddenly,respiratory,high,3
+urgent! my 3 year old child has mild fever and cold started suddenly,pediatric,moderate,4
+numbness on right side and slurred speech started 3 hours ago started suddenly,neuro,high,3
+urgent! mild dizziness and tingling in fingers,neuro,moderate,4
+"we need help, mild cough and cold for 1 days",respiratory,moderate,4
+urgent! my father has severe chest pain and sweating he is 64,cardiac,critical,1
+"we need help, severe headache worst of life with confusion and vomiting it is getting worse",neuro,critical,1
+"urgent! broken bone suspected after a fall, unable to walk",trauma_ortho,high,3
+"my relative has fell from height, deformed arm and severe pain",trauma_ortho,critical,1
+"we need help, he collapsed with chest tightness and no pulse it is getting worse",cardiac,critical,1
+urgent! my 7 year old child has mild fever and cold,pediatric,moderate,4
+urgent! deep wound on abdomen with internal bleeding after stab,surgery,critical,1
+"severe difficulty breathing, unable to speak full sentences please advise",respiratory,critical,1
+"we need help, asthma attack not relieved by inhaler please advise",respiratory,high,3
+"please help, burns on hand from boiling water, second degree it is getting worse",surgery,high,3
+"we need help, crushing chest pain radiating to the left arm since 30 minutes please advise",cardiac,critical,1
+"please help, angina like chest pain, feels pressure in chest it is getting worse",cardiac,high,3
+my relative has my father has severe chest pain and sweating he is 76,cardiac,critical,1
+"stroke suspected, facial droop and unable to move left arm please advise",neuro,critical,1
+"we need help, mild dizziness and tingling in fingers started suddenly",neuro,moderate,4
+"please help, seizure episode lasting 30 minutes, now drowsy please advise",neuro,high,3
+mild cough and cold for 3 days please advise,respiratory,moderate,4
+"urgent! small laceration on forearm, bleeding controlled started suddenly",surgery,moderate,4
+"my relative has choking and gasping for air, oxygen level dropping started suddenly",respiratory,critical,1
+my relative has my 5 year old child is not breathing properly and blue lips please advise,pediatric,critical,1
+"we need help, small laceration on forearm, bleeding controlled it is getting worse",surgery,moderate,4
+"mild chest discomfort after walking, no sweating it is getting worse",cardiac,moderate,4
+"we need help, dislocated shoulder from bike accident, severe pain it is getting worse",trauma_ortho,high,3
+"we need help, my 1 year old child is not breathing properly and blue lips started suddenly",pediatric,critical,1
+"please help, numbness on right side and slurred speech started 6 hours ago",neuro,high,3
+"my relative has fell from height, deformed arm and severe pain started suddenly",trauma_ortho,critical,1
+"choking and gasping for air, oxygen level dropping",respiratory,critical,1
+my relative has mild dizziness and tingling in fingers it is getting worse,neuro,moderate,4
+mild abdominal pain and bloating since yesterday,surgery,moderate,4
+"please help, infant with slight rash and mild diarrhoea started suddenly",pediatric,moderate,4
+"we need help, baby is unresponsive after high fever and convulsion started suddenly",pediatric,critical,1
+"my relative has anaphylaxis after food, swelling of face and throat please advise",general,critical,1
+urgent! infant with slight rash and mild diarrhoea started suddenly,pediatric,moderate,4
+"cardiac arrest, patient not breathing, chest pain before collapse it is getting worse",cardiac,critical,1
+my relative has toddler with difficulty breathing and wheezing,pediatric,high,3
+"stroke suspected, facial droop and unable to move left arm please advise",neuro,critical,1
+"urgent! anaphylaxis after food, swelling of face and throat please advise",general,critical,1
+my relative has mild cough and cold for 2 days started suddenly,respiratory,moderate,4
+my relative has my 2 year old child is not breathing properly and blue lips,pediatric,critical,1
+"please help, fell from height, deformed arm and severe pain started suddenly",trauma_ortho,critical,1
+urgent! recurring migraine with light sensitivity,neuro,moderate,4
+"angina like chest pain, feels pressure in chest please advise",cardiac,high,3
+my relative has dehydration with dizziness and weakness started suddenly,general,high,3
+"urgent! burns on hand from boiling water, second degree it is getting worse",surgery,high,3
+"please help, mild dizziness and tingling in fingers please advise",neuro,moderate,4
+"my relative has cardiac arrest, patient not breathing, chest pain before collapse started suddenly",cardiac,critical,1
+"we need help, shortness of breath and wheezing since morning please advise",respiratory,high,3
+"anaphylaxis after food, swelling of face and throat please advise",general,critical,1
+"my relative has cardiac arrest, patient not breathing, chest pain before collapse please advise",cardiac,critical,1
+"we need help, twisted ankle while walking, mild swelling it is getting worse",trauma_ortho,moderate,4
+"we need help, dislocated shoulder from bike accident, severe pain please advise",trauma_ortho,high,3
+"urgent! fell from height, deformed arm and severe pain please advise",trauma_ortho,critical,1
+"we need help, road accident, open fracture of leg with heavy bleeding started suddenly",trauma_ortho,critical,1
+urgent! irregular heartbeat and chest discomfort for 1 hours,cardiac,high,3
+my relative has he collapsed with chest tightness and no pulse it is getting worse,cardiac,critical,1
+"my relative has dislocated shoulder from bike accident, severe pain started suddenly",trauma_ortho,high,3
+urgent! toddler with difficulty breathing and wheezing,pediatric,high,3
+"appendicitis suspected, severe stomach pain on right side",surgery,high,3
+"please help, mild fever and body ache since yesterday started suddenly",general,moderate,4
+"please help, my 10 year old daughter has high fever and continuous vomiting please advise",pediatric,high,3
+urgent! toddler with difficulty breathing and wheezing please advise,pediatric,high,3
+my 5 year old child has mild fever and cold please advise,pediatric,moderate,4
+"please help, mild dizziness and tingling in fingers started suddenly",neuro,moderate,4
+urgent! sudden slurred speech and weakness on one side of face,neuro,critical,1
+"my relative has patient is unconscious after a seizure, 45 years old",neuro,critical,1
+"we need help, deep wound on abdomen with internal bleeding after stab please advise",surgery,critical,1
+urgent! high fever with severe dehydration and fainting it is getting worse,general,critical,1
+"severe difficulty breathing, unable to speak full sentences",respiratory,critical,1
+"chest pain on exertion, 58 year old with palpitations",cardiac,high,3
+"urgent! fell from height, deformed arm and severe pain",trauma_ortho,critical,1
+"we need help, mild dizziness and tingling in fingers please advise",neuro,moderate,4
+my relative has infant with slight rash and mild diarrhoea,pediatric,moderate,4
+toddler with difficulty breathing and wheezing please advise,pediatric,high,3
+"we need help, dehydration with dizziness and weakness please advise",general,high,3
+asthma attack not relieved by inhaler,respiratory,high,3
+"please help, he collapsed with chest tightness and no pulse it is getting worse",cardiac,critical,1
+"please help, broken bone suspected after a fall, unable to walk it is getting worse",trauma_ortho,high,3
+"please help, cardiac arrest, patient not breathing, chest pain before collapse it is getting worse",cardiac,critical,1
+"occasional palpitations, feels fine otherwise",cardiac,moderate,4
+"urgent! food poisoning with diarrhoea, able to drink fluids",general,moderate,4
+my relative has high fever with severe dehydration and fainting it is getting worse,general,critical,1
+"stroke suspected, facial droop and unable to move left arm please advise",neuro,critical,1
+urgent! my 3 year old daughter has high fever and continuous vomiting it is getting worse,pediatric,high,3
+"we need help, severe difficulty breathing, unable to speak full sentences started suddenly",respiratory,critical,1
+recurring migraine with light sensitivity started suddenly,neuro,moderate,4
+my relative has my 3 year old daughter has high fever and continuous vomiting started suddenly,pediatric,high,3
+"seizure episode lasting 30 minutes, now drowsy it is getting worse",neuro,high,3
+my father has severe chest pain and sweating he is 70 started suddenly,cardiac,critical,1
+"please help, infant with slight rash and mild diarrhoea it is getting worse",pediatric,moderate,4
+my relative has infant with slight rash and mild diarrhoea started suddenly,pediatric,moderate,4
+"we need help, mild fever and body ache since yesterday please advise",general,moderate,4
+"we need help, appendicitis suspected, severe stomach pain on right side please advise",surgery,high,3
+"please help, deep wound on abdomen with internal bleeding after stab please advise",surgery,critical,1
+"we need help, mild cough and cold for 4 days it is getting worse",respiratory,moderate,4
+"please help, mild abdominal pain and bloating since yesterday started suddenly",surgery,moderate,4
+my relative has my 3 year old child has mild fever and cold,pediatric,moderate,4
+my relative has severe headache worst of life with confusion and vomiting please advise,neuro,critical,1
+"urgent! seizure episode lasting 10 minutes, now drowsy please advise",neuro,high,3
+"urgent! small laceration on forearm, bleeding controlled started suddenly",surgery,moderate,4
+"please help, anaphylaxis after food, swelling of face and throat it is getting worse",general,critical,1
+urgent! my father has severe chest pain and sweating he is 58 it is getting worse,cardiac,critical,1
+my relative has baby is unresponsive after high fever and convulsion please advise,pediatric,critical,1
+"urgent! small laceration on forearm, bleeding controlled please advise",surgery,moderate,4
+"we need help, small laceration on forearm, bleeding controlled please advise",surgery,moderate,4
+"urgent! burns on hand from boiling water, second degree started suddenly",surgery,high,3
+my father has severe chest pain and sweating he is 52 please advise,cardiac,critical,1
+"please help, numbness on right side and slurred speech started 4 hours ago started suddenly",neuro,high,3
+"severe difficulty breathing, unable to speak full sentences it is getting worse",respiratory,critical,1
+my relative has my father has severe chest pain and sweating he is 70 it is getting worse,cardiac,critical,1
+high fever and persistent vomiting for 3 days please advise,general,high,3
+"food poisoning with diarrhoea, able to drink fluids it is getting worse",general,moderate,4
+"angina like chest pain, feels pressure in chest started suddenly",cardiac,high,3
+"my relative has patient is unconscious after a seizure, 64 years old started suddenly",neuro,critical,1
+"please help, severe difficulty breathing, unable to speak full sentences it is getting worse",respiratory,critical,1
+urgent! mild dizziness and tingling in fingers it is getting worse,neuro,moderate,4
+"we need help, appendicitis suspected, severe stomach pain on right side",surgery,high,3
+"we need help, road accident, open fracture of leg with heavy bleeding it is getting worse",trauma_ortho,critical,1
+"my relative has road accident, open fracture of leg with heavy bleeding it is getting worse",trauma_ortho,critical,1
+my relative has deep wound on abdomen with internal bleeding after stab started suddenly,surgery,critical,1
+urgent! he collapsed with chest tightness and no pulse please advise,cardiac,critical,1
+urgent! mild cough and cold for 3 days started suddenly,respiratory,moderate,4
+"urgent! occasional palpitations, feels fine otherwise it is getting worse",cardiac,moderate,4
+my relative has sudden slurred speech and weakness on one side of face it is getting worse,neuro,critical,1
+"please help, occasional palpitations, feels fine otherwise started suddenly",cardiac,moderate,4
+"we need help, asthma attack not relieved by inhaler",respiratory,high,3
+"please help, toddler with difficulty breathing and wheezing",pediatric,high,3
+"we need help, broken bone suspected after a fall, unable to walk please advise",trauma_ortho,high,3
+urgent! sudden slurred speech and weakness on one side of face please advise,neuro,critical,1
+"we need help, he collapsed with chest tightness and no pulse",cardiac,critical,1
+"urgent! anaphylaxis after food, swelling of face and throat please advise",general,critical,1
+my 4 year old daughter has high fever and continuous vomiting please advise,pediatric,high,3
+"urgent! twisted ankle while walking, mild swelling started suddenly",trauma_ortho,moderate,4
+urgent! sudden slurred speech and weakness on one side of face started suddenly,neuro,critical,1
+"my relative has food poisoning with diarrhoea, able to drink fluids please advise",general,moderate,4
+"we need help, my 7 year old child is not breathing properly and blue lips",pediatric,critical,1
+"my relative has twisted ankle while walking, mild swelling",trauma_ortho,moderate,4
+my 2 year old child is not breathing properly and blue lips,pediatric,critical,1
+"chest pain on exertion, 45 year old with palpitations it is getting worse",cardiac,high,3
+"please help, dislocated shoulder from bike accident, severe pain",trauma_ortho,high,3
+"urgent! choking and gasping for air, oxygen level dropping it is getting worse",respiratory,critical,1
+"we need help, appendicitis suspected, severe stomach pain on right side it is getting worse",surgery,high,3
+"angina like chest pain, feels pressure in chest started suddenly",cardiac,high,3
+"please help, irregular heartbeat and chest discomfort for 6 hours it is getting worse",cardiac,high,3
+"we need help, mild chest discomfort after walking, no sweating started suddenly",cardiac,moderate,4
+"please help, dehydration with dizziness and weakness please advise",general,high,3
+"we need help, choking and gasping for air, oxygen level dropping please advise",respiratory,critical,1
+"please help, mild cough and cold for 4 days",respiratory,moderate,4
+urgent! numbness on right side and slurred speech started 1 hours ago it is getting worse,neuro,high,3
+"my relative has food poisoning with diarrhoea, able to drink fluids",general,moderate,4
+"appendicitis suspected, severe stomach pain on right side",surgery,high,3
+"please help, stroke suspected, facial droop and unable to move left arm it is getting worse",neuro,critical,1
+"please help, my 1 year old child has mild fever and cold please advise",pediatric,moderate,4
+"my relative has appendicitis suspected, severe stomach pain on right side started suddenly",surgery,high,3
+"urgent! patient is unconscious after a seizure, 76 years old",neuro,critical,1
+"we need help, crushing chest pain radiating to the left arm since 15 minutes started suddenly",cardiac,critical,1
+"we need help, appendicitis suspected, severe stomach pain on right side please advise",surgery,high,3
+"my relative has fell from height, deformed arm and severe pain it is getting worse",trauma_ortho,critical,1
+"please help, food poisoning with diarrhoea, able to drink fluids please advise",general,moderate,4
+"please help, sprained wrist after a small fall, slight pain it is getting worse",trauma_ortho,moderate,4
+"please help, mild chest discomfort after walking, no sweating started suddenly",cardiac,moderate,4
+my 2 year old daughter has high fever and continuous vomiting started suddenly,pediatric,high,3
+"we need help, mild cough and cold for 3 days",respiratory,moderate,4
+my relative has my 2 year old child has mild fever and cold it is getting worse,pediatric,moderate,4
+"we need help, patient is unconscious after a seizure, 64 years old it is getting worse",neuro,critical,1
+"angina like chest pain, feels pressure in chest please advise",cardiac,high,3
+"please help, small laceration on forearm, bleeding controlled please advise",surgery,moderate,4
+urgent! irregular heartbeat and chest discomfort for 6 hours it is getting worse,cardiac,high,3
+"please help, anaphylaxis after food, swelling of face and throat started suddenly",general,critical,1
+"urgent! choking and gasping for air, oxygen level dropping",respiratory,critical,1
+"my relative has burns on hand from boiling water, second degree it is getting worse",surgery,high,3
+"my relative has occasional palpitations, feels fine otherwise started suddenly",cardiac,moderate,4
+my 3 year old child is not breathing properly and blue lips it is getting worse,pediatric,critical,1
+urgent! mild cough and cold for 2 days started suddenly,respiratory,moderate,4
+"please help, cardiac arrest, patient not breathing, chest pain before collapse started suddenly",cardiac,critical,1
+my relative has mild fever and body ache since yesterday,general,moderate,4
+"we need help, mild dizziness and tingling in fingers please advise",neuro,moderate,4
+"we need help, vomiting blood and severe abdominal pain",surgery,critical,1
+urgent! sudden slurred speech and weakness on one side of face started suddenly,neuro,critical,1
+"please help, burns on hand from boiling water, second degree",surgery,high,3
+mild dizziness and tingling in fingers,neuro,moderate,4
+"urgent! road accident, open fracture of leg with heavy bleeding started suddenly",trauma_ortho,critical,1
+"my relative has sprained wrist after a small fall, slight pain started suddenly",trauma_ortho,moderate,4
+"please help, appendicitis suspected, severe stomach pain on right side",surgery,high,3
+mild dizziness and tingling in fingers started suddenly,neuro,moderate,4
+"urgent! patient is unconscious after a seizure, 58 years old it is getting worse",neuro,critical,1
+he collapsed with chest tightness and no pulse it is getting worse,cardiac,critical,1
+"my relative has severe difficulty breathing, unable to speak full sentences please advise",respiratory,critical,1
+my relative has my 1 year old child is not breathing properly and blue lips please advise,pediatric,critical,1
+urgent! dehydration with dizziness and weakness,general,high,3
+"we need help, my 2 year old daughter has high fever and continuous vomiting please advise",pediatric,high,3
+"please help, he collapsed with chest tightness and no pulse started suddenly",cardiac,critical,1
+"my relative has sprained wrist after a small fall, slight pain please advise",trauma_ortho,moderate,4
+"we need help, baby is unresponsive after high fever and convulsion it is getting worse",pediatric,critical,1
+"we need help, my 3 year old child is not breathing properly and blue lips started suddenly",pediatric,critical,1
+"my relative has seizure episode lasting 30 minutes, now drowsy",neuro,high,3
+urgent! he collapsed with chest tightness and no pulse started suddenly,cardiac,critical,1
+"my relative has appendicitis suspected, severe stomach pain on right side",surgery,high,3
+"please help, appendicitis suspected, severe stomach pain on right side started suddenly",surgery,high,3
+"we need help, angina like chest pain, feels pressure in chest please advise",cardiac,high,3
+my relative has my 2 year old child is not breathing properly and blue lips it is getting worse,pediatric,critical,1
+"we need help, he collapsed with chest tightness and no pulse",cardiac,critical,1
+urgent! slight breathlessness after climbing stairs please advise,respiratory,moderate,4
+"please help, choking and gasping for air, oxygen level dropping",respiratory,critical,1
+my 4 year old child is not breathing properly and blue lips it is getting worse,pediatric,critical,1
+"we need help, baby is unresponsive after high fever and convulsion",pediatric,critical,1
+"we need help, my 10 year old child has mild fever and cold started suddenly",pediatric,moderate,4
+my relative has toddler with difficulty breathing and wheezing,pediatric,high,3
+my relative has high fever and persistent vomiting for 1 days please advise,general,high,3
+"we need help, mild fever and body ache since yesterday",general,moderate,4
+"we need help, sprained wrist after a small fall, slight pain please advise",trauma_ortho,moderate,4
+"please help, road accident, open fracture of leg with heavy bleeding it is getting worse",trauma_ortho,critical,1
+"please help, slight breathlessness after climbing stairs started suddenly",respiratory,moderate,4
+"my relative has twisted ankle while walking, mild swelling please advise",trauma_ortho,moderate,4
+"we need help, high fever with severe dehydration and fainting started suddenly",general,critical,1
+urgent! infant with slight rash and mild diarrhoea it is getting worse,pediatric,moderate,4
+"please help, he collapsed with chest tightness and no pulse it is getting worse",cardiac,critical,1
+my relative has deep wound on abdomen with internal bleeding after stab started suddenly,surgery,critical,1
+"please help, vomiting blood and severe abdominal pain",surgery,critical,1
+numbness on right side and slurred speech started 3 hours ago it is getting worse,neuro,high,3
+"burns on hand from boiling water, second degree it is getting worse",surgery,high,3
+"please help, fell from height, deformed arm and severe pain please advise",trauma_ortho,critical,1
+mild fever and body ache since yesterday started suddenly,general,moderate,4
+my relative has mild abdominal pain and bloating since yesterday please advise,surgery,moderate,4
+my relative has mild fever and body ache since yesterday started suddenly,general,moderate,4
+urgent! vomiting blood and severe abdominal pain,surgery,critical,1
+"please help, patient is unconscious after a seizure, 76 years old it is getting worse",neuro,critical,1
+"we need help, cardiac arrest, patient not breathing, chest pain before collapse",cardiac,critical,1
+"my relative has stroke suspected, facial droop and unable to move left arm",neuro,critical,1
+my relative has high fever and persistent vomiting for 4 days it is getting worse,general,high,3
+"my relative has stroke suspected, facial droop and unable to move left arm please advise",neuro,critical,1
+urgent! shortness of breath and wheezing since morning started suddenly,respiratory,high,3
+"anaphylaxis after food, swelling of face and throat it is getting worse",general,critical,1
+severe headache worst of life with confusion and vomiting please advise,neuro,critical,1
+my relative has deep wound on abdomen with internal bleeding after stab,surgery,critical,1
+my relative has recurring migraine with light sensitivity,neuro,moderate,4
+"we need help, my father has severe chest pain and sweating he is 70 started suddenly",cardiac,critical,1
+"please help, high fever and persistent vomiting for 3 days it is getting worse",general,high,3
+"we need help, deep wound on abdomen with internal bleeding after stab please advise",surgery,critical,1
+urgent! crushing chest pain radiating to the left arm since 20 minutes started suddenly,cardiac,critical,1
+"please help, severe headache worst of life with confusion and vomiting please advise",neuro,critical,1
+"urgent! patient is unconscious after a seizure, 64 years old",neuro,critical,1
+sudden slurred speech and weakness on one side of face started suddenly,neuro,critical,1
+"please help, mild chest discomfort after walking, no sweating please advise",cardiac,moderate,4
+"my relative has burns on hand from boiling water, second degree",surgery,high,3
+my relative has mild abdominal pain and bloating since yesterday started suddenly,surgery,moderate,4
+"please help, sprained wrist after a small fall, slight pain started suddenly",trauma_ortho,moderate,4
+"we need help, patient is unconscious after a seizure, 64 years old started suddenly",neuro,critical,1
+"urgent! twisted ankle while walking, mild swelling",trauma_ortho,moderate,4
+"we need help, choking and gasping for air, oxygen level dropping",respiratory,critical,1
+"we need help, slight breathlessness after climbing stairs please advise",respiratory,moderate,4
+"urgent! burns on hand from boiling water, second degree",surgery,high,3
+"we need help, infant with slight rash and mild diarrhoea please advise",pediatric,moderate,4
+"my relative has small laceration on forearm, bleeding controlled it is getting worse",surgery,moderate,4
+"my relative has mild chest discomfort after walking, no sweating",cardiac,moderate,4
+mild abdominal pain and bloating since yesterday please advise,surgery,moderate,4
+urgent! dehydration with dizziness and weakness please advise,general,high,3
+"we need help, mild cough and cold for 3 days started suddenly",respiratory,moderate,4
+"urgent! chest pain on exertion, 76 year old with palpitations started suddenly",cardiac,high,3
+"my relative has dislocated shoulder from bike accident, severe pain please advise",trauma_ortho,high,3
+mild fever and body ache since yesterday,general,moderate,4
+"please help, mild cough and cold for 1 days it is getting worse",respiratory,moderate,4
+my relative has mild fever and body ache since yesterday it is getting worse,general,moderate,4
+"urgent! seizure episode lasting 30 minutes, now drowsy started suddenly",neuro,high,3
+my 4 year old child has mild fever and cold,pediatric,moderate,4
+"my relative has seizure episode lasting 30 minutes, now drowsy please advise",neuro,high,3
+infant with slight rash and mild diarrhoea,pediatric,moderate,4
+toddler with difficulty breathing and wheezing please advise,pediatric,high,3
+infant with slight rash and mild diarrhoea please advise,pediatric,moderate,4
+"please help, recurring migraine with light sensitivity",neuro,moderate,4
+"we need help, severe difficulty breathing, unable to speak full sentences it is getting worse",respiratory,critical,1
+my relative has infant with slight rash and mild diarrhoea started suddenly,pediatric,moderate,4
+high fever and persistent vomiting for 3 days,general,high,3
+crushing chest pain radiating to the left arm since 10 minutes please advise,cardiac,critical,1
+"my relative has patient is unconscious after a seizure, 45 years old please advise",neuro,critical,1
+"please help, mild chest discomfort after walking, no sweating it is getting worse",cardiac,moderate,4
+"my relative has angina like chest pain, feels pressure in chest it is getting worse",cardiac,high,3
+"urgent! patient is unconscious after a seizure, 45 years old please advise",neuro,critical,1
+dehydration with dizziness and weakness,general,high,3
+"my relative has occasional palpitations, feels fine otherwise it is getting worse",cardiac,moderate,4
+recurring migraine with light sensitivity it is getting worse,neuro,moderate,4
+"anaphylaxis after food, swelling of face and throat please advise",general,critical,1
+"urgent! choking and gasping for air, oxygen level dropping it is getting worse",respiratory,critical,1
+"we need help, anaphylaxis after food, swelling of face and throat please advise",general,critical,1
+"urgent! appendicitis suspected, severe stomach pain on right side",surgery,high,3
+"please help, road accident, open fracture of leg with heavy bleeding started suddenly",trauma_ortho,critical,1
+urgent! deep wound on abdomen with internal bleeding after stab started suddenly,surgery,critical,1
+urgent! deep wound on abdomen with internal bleeding after stab,surgery,critical,1
+"urgent! fell from height, deformed arm and severe pain it is getting worse",trauma_ortho,critical,1
+high fever and persistent vomiting for 2 days started suddenly,general,high,3
+crushing chest pain radiating to the left arm since 20 minutes started suddenly,cardiac,critical,1
+high fever with severe dehydration and fainting please advise,general,critical,1

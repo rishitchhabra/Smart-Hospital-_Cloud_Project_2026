@@ -1,0 +1,319 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  MedAgentX - Intelligent Serverless Workflow Optimization Framework for Smart
+  Hospital Services using Multi-Agent AI. Serverless, event-driven reference stack.
+
+Globals:
+  Function:
+    Runtime: nodejs20.x
+    Timeout: 20
+    MemorySize: 512
+    Architectures: [arm64]
+    Environment:
+      Variables:
+        TABLE_PREFIX: !Ref TablePrefix
+        EMERGENCY_TOPIC_ARN: !Ref EmergencyAlertTopic
+        STATE_MACHINE_ARN: !Ref EmergencyWorkflow
+
+Parameters:
+  TablePrefix:
+    Type: String
+    Default: MedAgentX
+  BedrockModelId:
+    Type: String
+    Default: anthropic.claude-3-sonnet-20240229-v1:0
+  StageName:
+    Type: String
+    Default: prod
+
+Resources:
+
+  # ---------------------------- DynamoDB (data) -----------------------------
+  PatientsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Sub '${TablePrefix}-Patients'
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - { AttributeName: id, AttributeType: S }
+        - { AttributeName: emergency_id, AttributeType: S }
+      KeySchema:
+        - { AttributeName: id, KeyType: HASH }
+      GlobalSecondaryIndexes:
+        - IndexName: emergency-index
+          KeySchema: [{ AttributeName: emergency_id, KeyType: HASH }]
+          Projection: { ProjectionType: ALL }
+
+  EmergenciesTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Sub '${TablePrefix}-Emergencies'
+      BillingMode: PAY_PER_REQUEST
+      StreamSpecification: { StreamViewType: NEW_AND_OLD_IMAGES }
+      AttributeDefinitions:
+        - { AttributeName: id, AttributeType: S }
+        - { AttributeName: status, AttributeType: S }
+        - { AttributeName: doctor_id, AttributeType: S }
+      KeySchema:
+        - { AttributeName: id, KeyType: HASH }
+      GlobalSecondaryIndexes:
+        - IndexName: status-index
+          KeySchema: [{ AttributeName: status, KeyType: HASH }]
+          Projection: { ProjectionType: ALL }
+        - IndexName: doctor-index
+          KeySchema: [{ AttributeName: doctor_id, KeyType: HASH }]
+          Projection: { ProjectionType: ALL }
+
+  BedsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Sub '${TablePrefix}-Beds'
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - { AttributeName: id, AttributeType: S }
+        - { AttributeName: ward_id, AttributeType: S }
+        - { AttributeName: status, AttributeType: S }
+      KeySchema: [{ AttributeName: id, KeyType: HASH }]
+      GlobalSecondaryIndexes:
+        - IndexName: ward-status-index
+          KeySchema:
+            - { AttributeName: ward_id, KeyType: HASH }
+            - { AttributeName: status, KeyType: RANGE }
+          Projection: { ProjectionType: ALL }
+
+  DoctorsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Sub '${TablePrefix}-Doctors'
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - { AttributeName: id, AttributeType: S }
+        - { AttributeName: specialization, AttributeType: S }
+      KeySchema: [{ AttributeName: id, KeyType: HASH }]
+      GlobalSecondaryIndexes:
+        - IndexName: specialization-index
+          KeySchema: [{ AttributeName: specialization, KeyType: HASH }]
+          Projection: { ProjectionType: ALL }
+
+  PrescriptionsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Sub '${TablePrefix}-Prescriptions'
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - { AttributeName: id, AttributeType: S }
+        - { AttributeName: patient_id, AttributeType: S }
+      KeySchema: [{ AttributeName: id, KeyType: HASH }]
+      GlobalSecondaryIndexes:
+        - IndexName: patient-index
+          KeySchema: [{ AttributeName: patient_id, KeyType: HASH }]
+          Projection: { ProjectionType: ALL }
+
+  # ------------------------------- Cognito ---------------------------------
+  UserPool:
+    Type: AWS::Cognito::UserPool
+    Properties:
+      UserPoolName: !Sub '${TablePrefix}-Users'
+      AutoVerifiedAttributes: [email]
+      Schema:
+        - Name: role
+          AttributeDataType: String
+          Mutable: true
+        - Name: doctorId
+          AttributeDataType: String
+          Mutable: true
+        - Name: staffId
+          AttributeDataType: String
+          Mutable: true
+      Policies:
+        PasswordPolicy: { MinimumLength: 8, RequireUppercase: true, RequireNumbers: true }
+
+  UserPoolClient:
+    Type: AWS::Cognito::UserPoolClient
+    Properties:
+      UserPoolId: !Ref UserPool
+      ClientName: medagentx-web
+      GenerateSecret: false
+      ExplicitAuthFlows: [ALLOW_USER_PASSWORD_AUTH, ALLOW_REFRESH_TOKEN_AUTH]
+
+  # --------------------------- Notifications -------------------------------
+  EmergencyAlertTopic:
+    Type: AWS::SNS::Topic
+    Properties:
+      TopicName: !Sub '${TablePrefix}-EmergencyAlerts'
+      DisplayName: MedAgentX Emergency Alerts
+
+  # ------------------------------ Event bus --------------------------------
+  HospitalEventBus:
+    Type: AWS::Events::EventBus
+    Properties:
+      Name: medagentx-hospital-bus
+
+  EmergencyCreatedRule:
+    Type: AWS::Events::Rule
+    Properties:
+      EventBusName: !Ref HospitalEventBus
+      EventPattern:
+        source: [medagentx.emergency]
+        detail-type: [EmergencyCreated]
+      Targets:
+        - Id: NotificationLambda
+          Arn: !GetAtt NotificationFunction.Arn
+
+  # --------------------------- Step Functions ------------------------------
+  EmergencyWorkflow:
+    Type: AWS::Serverless::StateMachine
+    Properties:
+      Name: !Sub '${TablePrefix}-EmergencyWorkflow'
+      Type: STANDARD
+      DefinitionUri: statemachine/emergency-workflow.asl.json
+      DefinitionSubstitutions:
+        TriageFunctionArn: !GetAtt TriageFunction.Arn
+        BedAllocationFunctionArn: !GetAtt BedAllocationFunction.Arn
+        DoctorAssignmentFunctionArn: !GetAtt DoctorAssignmentFunction.Arn
+        NotificationFunctionArn: !GetAtt NotificationFunction.Arn
+        AdmissionFunctionArn: !GetAtt AdmissionFunction.Arn
+        EmergenciesTable: !Ref EmergenciesTable
+      Policies:
+        - AWSLambdaInvokePolicy: { FunctionName: !Ref TriageFunction }
+        - AWSLambdaInvokePolicy: { FunctionName: !Ref BedAllocationFunction }
+        - AWSLambdaInvokePolicy: { FunctionName: !Ref DoctorAssignmentFunction }
+        - AWSLambdaInvokePolicy: { FunctionName: !Ref NotificationFunction }
+        - AWSLambdaInvokePolicy: { FunctionName: !Ref AdmissionFunction }
+        - DynamoDBCrudPolicy: { TableName: !Ref EmergenciesTable }
+        - SNSPublishPolicy: { TopicName: !Ref EmergencyAlertTopic }
+
+  # -------------------------------- Agents ---------------------------------
+  CoordinatorFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: !Sub '${TablePrefix}-CoordinatorAgent'
+      CodeUri: lambda/
+      Handler: handler.coordinator
+      Environment:
+        Variables:
+          STATE_MACHINE_ARN: !GetAtt EmergencyWorkflow.Arn
+          BEDROCK_MODEL_ID: !Ref BedrockModelId
+      Policies:
+        - StepFunctionsExecutionPolicy: { StateMachineName: !Ref EmergencyWorkflow }
+        - BedrockInvokeModelPolicy: { ModelId: !Ref BedrockModelId }
+
+  TriageFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: !Sub '${TablePrefix}-TriageAgent'
+      CodeUri: lambda/
+      Handler: handler.triage
+      Environment:
+        Variables: { BEDROCK_MODEL_ID: !Ref BedrockModelId }
+      Policies:
+        - BedrockInvokeModelPolicy: { ModelId: !Ref BedrockModelId }
+
+  BedAllocationFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: !Sub '${TablePrefix}-BedAllocationAgent'
+      CodeUri: lambda/
+      Handler: handler.bedAllocation
+      Policies:
+        - DynamoDBCrudPolicy: { TableName: !Ref BedsTable }
+
+  DoctorAssignmentFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: !Sub '${TablePrefix}-DoctorAssignmentAgent'
+      CodeUri: lambda/
+      Handler: handler.doctorAssignment
+      Policies:
+        - DynamoDBCrudPolicy: { TableName: !Ref DoctorsTable }
+        - DynamoDBCrudPolicy: { TableName: !Ref EmergenciesTable }
+
+  NotificationFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: !Sub '${TablePrefix}-NotificationAgent'
+      CodeUri: lambda/
+      Handler: handler.notification
+      Policies:
+        - SNSPublishPolicy: { TopicName: !Ref EmergencyAlertTopic }
+        - SESCrudPolicy: { IdentityName: 'medagentx.health' }
+
+  AdmissionFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: !Sub '${TablePrefix}-AdmissionAgent'
+      CodeUri: lambda/
+      Handler: handler.admission
+      Policies:
+        - DynamoDBCrudPolicy: { TableName: !Ref PatientsTable }
+        - DynamoDBCrudPolicy: { TableName: !Ref EmergenciesTable }
+        - DynamoDBCrudPolicy: { TableName: !Ref BedsTable }
+
+  ApiFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: !Sub '${TablePrefix}-Api'
+      CodeUri: lambda/
+      Handler: handler.api
+      Events:
+        Api:
+          Type: Api
+          Properties:
+            Path: /{proxy+}
+            Method: ANY
+      Policies:
+        - DynamoDBCrudPolicy: { TableName: !Ref PatientsTable }
+        - DynamoDBCrudPolicy: { TableName: !Ref EmergenciesTable }
+        - DynamoDBCrudPolicy: { TableName: !Ref BedsTable }
+        - DynamoDBCrudPolicy: { TableName: !Ref DoctorsTable }
+        - DynamoDBCrudPolicy: { TableName: !Ref PrescriptionsTable }
+
+  # ------------------------------ Frontend ---------------------------------
+  WebBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub '${TablePrefix}-web-${AWS::AccountId}'
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+
+  WebDistribution:
+    Type: AWS::CloudFront::Distribution
+    Properties:
+      DistributionConfig:
+        Enabled: true
+        DefaultRootObject: index.html
+        Origins:
+          - Id: s3-web
+            DomainName: !GetAtt WebBucket.RegionalDomainName
+            S3OriginConfig: {}
+        DefaultCacheBehavior:
+          TargetOriginId: s3-web
+          ViewerProtocolPolicy: redirect-to-https
+          AllowedMethods: [GET, HEAD, OPTIONS]
+          Compress: true
+          ForwardedValues: { QueryString: false }
+        CustomErrorResponses:
+          - ErrorCode: 403
+            ResponseCode: 200
+            ResponsePagePath: /index.html
+          - ErrorCode: 404
+            ResponseCode: 200
+            ResponsePagePath: /index.html
+
+Outputs:
+  ApiUrl:
+    Value: !Sub 'https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/${StageName}'
+  UserPoolId:
+    Value: !Ref UserPool
+  UserPoolClientId:
+    Value: !Ref UserPoolClient
+  CloudFrontUrl:
+    Value: !Sub 'https://${WebDistribution.DomainName}'
+  StateMachineArn:
+    Value: !Ref EmergencyWorkflow
+  EmergencyTopicArn:
+    Value: !Ref EmergencyAlertTopic

@@ -1,0 +1,64 @@
+{
+  "Comment": "MedAgentX multi-agent emergency workflow orchestration. Coordinator invokes specialist agents in sequence, persists state to DynamoDB and raises alerts.",
+  "StartAt": "Triage",
+  "States": {
+    "Triage": {
+      "Type": "Task",
+      "Comment": "Triage Agent - urgency, department and specialisation from the emergency chat.",
+      "Resource": "${TriageFunctionArn}",
+      "ResultPath": "$.triage",
+      "Next": "AllocateBed",
+      "Retry": [{ "ErrorEquals": ["States.TaskFailed"], "IntervalSeconds": 2, "MaxAttempts": 2, "BackoffRate": 2 }],
+      "Catch": [{ "ErrorEquals": ["States.ALL"], "ResultPath": "$.error", "Next": "NotifyStaff" }]
+    },
+    "AllocateBed": {
+      "Type": "Task",
+      "Comment": "Bed Allocation Agent - finds and atomically reserves a suitable bed.",
+      "Resource": "${BedAllocationFunctionArn}",
+      "ResultPath": "$.bedAllocation",
+      "Next": "AssignDoctor",
+      "Retry": [{ "ErrorEquals": ["States.TaskFailed"], "IntervalSeconds": 1, "MaxAttempts": 3, "BackoffRate": 1.5 }],
+      "Catch": [{ "ErrorEquals": ["States.ALL"], "ResultPath": "$.error", "Next": "AssignDoctor" }]
+    },
+    "AssignDoctor": {
+      "Type": "Task",
+      "Comment": "Doctor Assignment Agent - availability + specialisation aware matching.",
+      "Resource": "${DoctorAssignmentFunctionArn}",
+      "ResultPath": "$.doctorAssignment",
+      "Next": "NotifyStaff",
+      "Catch": [{ "ErrorEquals": ["States.ALL"], "ResultPath": "$.error", "Next": "NotifyStaff" }]
+    },
+    "NotifyStaff": {
+      "Type": "Task",
+      "Comment": "Notification Agent - urgent alerts to assigned doctor and ward staff via SNS/SES.",
+      "Resource": "${NotificationFunctionArn}",
+      "ResultPath": "$.notification",
+      "Next": "WaitForArrival"
+    },
+    "WaitForArrival": {
+      "Type": "Task",
+      "Comment": "Waiting for the patient to physically arrive at the emergency ward.",
+      "Resource": "arn:aws:states:::lambda:invoke.waitForTaskToken",
+      "Parameters": {
+        "FunctionName": "${NotificationFunctionArn}",
+        "Payload": {
+          "task": "awaitArrival",
+          "taskToken.$": "$$.Task.Token",
+          "emergencyId.$": "$.emergencyId"
+        }
+      },
+      "HeartbeatSeconds": 3600,
+      "Next": "Admission"
+    },
+    "Admission": {
+      "Type": "Task",
+      "Comment": "Admission Agent - converts the Emergency ID into a complete patient record.",
+      "Resource": "${AdmissionFunctionArn}",
+      "ResultPath": "$.admission",
+      "Next": "WorkflowComplete"
+    },
+    "WorkflowComplete": {
+      "Type": "Succeed"
+    }
+  }
+}
