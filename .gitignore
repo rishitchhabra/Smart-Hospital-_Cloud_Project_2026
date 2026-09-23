@@ -13,3 +13,6 @@ coverage/
 .vite/
 src/ml_model/*.joblib
 src/ml_model/__pycache__/
+mobile/build/
+mobile/debug.keystore
+mobile/output/*.apk

@@ -286,7 +286,7 @@ export default function Layout() {
                     title="Enable or disable the emergency alarm sound"
                     onClick={toggleSound}
                   >
-                    <Icon name={soundOn ? 'bell-ring' : 'bell'} size={14} /> {soundOn ? 'Alarm on' : 'Enable alarm'}
+                    <Icon name={soundOn ? 'bell-ring' : 'bell'} size={14} /> <span className="hide-sm">{soundOn ? 'Alarm on' : 'Enable alarm'}</span>
                   </button>
                 ) : null}
                 <button className="bell" title="Alerts" onClick={() => setDrawer(true)}>
@@ -294,7 +294,7 @@ export default function Layout() {
                   {unread > 0 ? <span className="count">{unread > 9 ? '9+' : unread}</span> : null}
                 </button>
                 <div className="user-chip">
-                  <div>
+                  <div className="user-chip-text">
                     <div className="small" style={{ fontWeight: 700, lineHeight: 1.1 }}>{user.name}</div>
                     <div className="tiny muted" style={{ textTransform: 'capitalize' }}>{user.role.replace('_', ' ')}</div>
                   </div>

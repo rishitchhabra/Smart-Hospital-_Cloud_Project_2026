@@ -168,7 +168,7 @@ export default function DoctorDashboard() {
       {loading ? <Loading /> : null}
 
       {!loading ? (
-        <div className="grid" style={{ gridTemplateColumns: '340px 1fr', alignItems: 'start' }}>
+        <div className="grid doctor-layout" style={{ alignItems: 'start' }}>
           <div className="stack">
             {activeEmergencies.length ? (
               <>
